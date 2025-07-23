@@ -1,0 +1,161 @@
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.background{
+    background-color: #17072b;
+}
+.home-text{
+    color: #9067c6;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+.py-180{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.box-pic{
+   border-radius: 66% 34% 34% 66% / 42% 33% 67% 58% ;
+}
+.box-img{
+   border-radius: 66% 34% 34% 66% / 42% 33% 67% 58% ;
+}
+.box-img img {
+    width: 100%;
+    border-radius: 66% 34% 34% 66% / 42% 33% 67% 58% ;
+}
+.c1{
+    position: relative;
+    transition-duration: 0.5s;
+}
+.c1:hover{
+    background-color: rgba(128, 128, 128, 0.411);
+    scale: 1.1;
+}
+.c1::after{
+    content: '';
+    width: 80%;
+    height: 30px;
+    right: 0;
+    top: 15px;
+    background: #9067c6;
+    position: absolute;
+}
+.c2{
+    position: relative;
+    transition-duration: 0.5s;
+}
+.c2:hover{
+    background-color: rgba(128, 128, 128, 0.411);
+    scale: 1.1;
+}
+.c2::after{
+    content: '';
+    width: 80%;
+    height: 30px;
+    right: 0px;
+    top: 15px;
+    background: #f574b9;
+    position: absolute;
+}
+.c3{
+    position: relative;
+    transition-duration: 0.5s;
+}
+.c3:hover{
+    background-color: rgba(128, 128, 128, 0.411);
+    scale: 1.1;
+}
+.c3::after{
+    content: '';
+    width: 80%;
+    height: 30px;
+    right: 0;
+    top: 15px;
+    background: #5961df;
+    position: absolute;
+}
+.img1{
+    position: relative;
+}
+.img1::after{
+    content: 'Famms Website';
+    height: 25px;
+    width: 100%;
+    left: 0px;
+    text-align: left;
+    padding-left: 20px;
+    top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+}
+.img2{
+    position: relative;
+}
+.img2::after{
+    content: 'Furniture Website';
+    height: 25px;
+    width: 100%;
+    left: 0px;
+    text-align: left;
+    padding-left: 20px;
+    top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+}
+.img3{
+    position: relative;
+}
+.img3::after{
+    content: 'Optics Website';
+    height: 25px;
+    width: 100%;
+    left: 0px;
+    text-align: left;
+    padding-left: 20px;
+    top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+}
+.img4{
+    position: relative;
+}
+.img4::after{
+    content: 'Organics Website';
+    height: 25px;
+    width: 100%;
+    left: 0px;
+    text-align: left;
+    padding-left: 20px;
+    top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+}
+form {
+      
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 50px;
+    }
+    .form-control, .form-control:focus {
+      background-color: #c5c0c9; /* Light grey input background */
+      border: none;
+      box-shadow: none;
+      color: #000;
+    }
+    .btn-gradient {
+      background: linear-gradient(90deg, #ff6ec4, #7873f5);
+      border: none;
+      color: #fff;
+    }
+    .btn-gradient:hover {
+      opacity: 0.9;
+    }
+    .form-label {
+      margin-top: 15px;
+    }
